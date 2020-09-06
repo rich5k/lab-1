@@ -48,6 +48,9 @@ h1,h2,h3{
     /* opacity: 0.75; */
     animation: fallIn 0.5s linear 1s forwards;
 }
+table{
+    border-spacing: 20px;
+}
 @keyframes slideIn {
     from{ left: -100%;}
     to{ left: 0%;}
