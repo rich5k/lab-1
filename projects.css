@@ -41,11 +41,10 @@ h1,h2,h3{
     top: -100%;
 }
 .content{
-    position: relative;
+    position: absolute;
     text-align: center;
     line-height: 30px;
-    top: -100%;
-    /* opacity: 0.75; */
+    top: 100%;
     animation: fallIn 0.5s linear 1s forwards;
 }
 @keyframes slideIn {
@@ -54,9 +53,10 @@ h1,h2,h3{
   }
   
   @keyframes fallIn {
-    from{ top: -100%;}
-    to{ top: 0%;}
+    from{ top: -100%; position: absolute;}
+    to{ top: 0%; position: relative;}
   }
+
   
   @keyframes fadeIn {
     from{ opacity: 0;}

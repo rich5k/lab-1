@@ -41,7 +41,7 @@ h1,h2,h3{
     top: -100%;
 }
 .content{
-    position: relative;
+    position: absolute;
     text-align: center;
     line-height: 30px;
     top: -100%;
@@ -54,8 +54,8 @@ h1,h2,h3{
   }
   
   @keyframes fallIn {
-    from{ top: -100%;}
-    to{ top: 0%;}
+    from{ top: -100%; position: absolute;}
+    to{ top: 0%; position: relative;}
   }
   
   @keyframes fadeIn {
