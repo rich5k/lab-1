@@ -44,7 +44,7 @@ h1,h2,h3{
     position: absolute;
     text-align: center;
     line-height: 30px;
-    top: 100%;
+    top: -100%;
     animation: fallIn 0.5s linear 1s forwards;
 }
 @keyframes slideIn {
