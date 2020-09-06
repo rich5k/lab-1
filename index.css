@@ -54,7 +54,7 @@ h1,h2,h3{
   }
   
   @keyframes fallIn {
-    from{ top: -1550%; position: absolute; left: 40%;}
+    from{ top: -150%; position: absolute; left: 40%;}
     to{ top: 0%; position: relative; left: 0; text-align: center;}
   }
   
